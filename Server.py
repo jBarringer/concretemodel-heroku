@@ -16,7 +16,8 @@ concreteStrengthPredictorFile.close()
 @app.route('/')
 @app.route('/index')
 def home():
-    return "Hi, Welcome to Flask!!"
+    #return "Hi, Welcome to Flask!!"
+	return redirect(url_for('input'))
 
 	
 # Render Concrete mixture input page
