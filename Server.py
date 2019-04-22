@@ -1,5 +1,5 @@
 # import Flask class from the flask module
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 
 import pickle
 import pandas
